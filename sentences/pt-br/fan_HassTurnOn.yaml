@@ -2,7 +2,8 @@ language: pt-br
 intents:
   HassTurnOn:
     data:
-      - sentences: []
+      - sentences:
+          - "(liga | ligue | ligar) [todos] os ventiladores <na_zona>"
         slots:
-          domain: fan
-          name: all
+          domain: "fan"
+          name: "all"
