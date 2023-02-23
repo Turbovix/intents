@@ -2,4 +2,7 @@ language: pt-br
 intents:
   HassClimateSetTemperature:
     data:
-      - sentences: []
+      - sentences:
+          - "(põe | ponha | pôr | coloque | colocar | coloca) <zona> a <temperatura>"
+          - "(põe | ponha | pôr | coloque | colocar | coloca) a temperatura a <temperatura>"
+          - "(põe | ponha | pôr | coloque | colocar | coloca) a temperatura <na_zona> a <temperatura>"
