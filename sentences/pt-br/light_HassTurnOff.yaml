@@ -2,7 +2,8 @@ language: pt-br
 intents:
   HassTurnOff:
     data:
-      - sentences: []
+      - sentences:
+          - "(desliga | desligue | apaga | apague | desligar | apagar) [(todas | todos)] [(o | os | a | as)] (luz | luzes | luminária | luminárias) <na_zona>"
         slots:
           domain: light
           name: all
