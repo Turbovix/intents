@@ -2,7 +2,8 @@ language: pt-br
 intents:
   HassTurnOff:
     data:
-      - sentences: []
+      - sentences:
+          - "(desliga | desligue | desligar) [todos] os ventiladores <na_zona>"
         slots:
-          domain: fan
-          name: all
+          domain: "fan"
+          name: "all"
