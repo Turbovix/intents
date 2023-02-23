@@ -2,7 +2,8 @@ language: pt-br
 intents:
   HassTurnOn:
     data:
-      - sentences: []
+      - sentences:
+          - "(liga | ligue | acende | acenda | ligar | acender) [(todas | todos)] [(o | os | a | as)] (luz | luzes | luminária | luminárias) <na_zona>"
         slots:
           domain: light
           name: all
