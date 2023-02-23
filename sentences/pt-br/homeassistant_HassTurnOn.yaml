@@ -2,4 +2,10 @@ language: pt-br
 intents:
   HassTurnOn:
     data:
-      - sentences: []
+      - sentences:
+          - (ligue | liga | ligar) [(o | a)] <nome>
+          - (ligue | liga | ligar) [(o | a)] <nome> <na_zona>
+      - sentences:
+          - (abra | abre | abrir) <nome>
+          - (abra | abre | abrir) <nome> <na_zona>
+        response: cover
